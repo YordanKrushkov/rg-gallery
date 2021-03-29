@@ -4,10 +4,11 @@ import { FaEdit } from "react-icons/fa";
 import EditContacts from '../../Components/EditContact'
 import SendEmail from '../../Components/SendEmail'
 import ArtistInfo from '../../Components/ArtistInfo'
-import { hoverHandler, hoverOut, openImgInput } from '../../Utils/eventHandlers'
+import { hoverHandler, hoverOut} from '../../Utils/eventHandlers'
 import { AuthContext } from "../../Context";
 import Loader from '../../Components/Loader'
 import {getMyData} from "../../Services/user";
+import img from '../../assets/contact.jpg'
 const Contact = () => {
   
   const context = useContext(AuthContext);
@@ -25,7 +26,7 @@ const Contact = () => {
       });
 
   }, [edit]);
-
+  console.log(me);
   const showEdit = (e) => {
     if (edit) {
       setEdit(false)
@@ -41,7 +42,7 @@ const Contact = () => {
     <div className={ styles.wrapper } id="contactWrapper" onMouseOver={ () => hoverHandler(setEditIcon) } onMouseLeave={ () => hoverOut(setEditIcon) }>
       <div className={ styles.container }>
         <div className={ styles.header } >
-          { me.cover ? <img className={ styles.img } src={ me.cover } alt="header" /> :
+          { img ? <img className={ styles.img } src={img } alt="header" /> :
             <Loader className={ styles.contactLoader } /> }
         </div>
         <div className={ styles.contactsWrapper } id="changeInfo" >
