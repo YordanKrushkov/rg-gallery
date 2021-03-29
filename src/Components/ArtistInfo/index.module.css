@@ -1,0 +1,48 @@
+.contactInfo {
+    display: block;
+}
+
+.author {
+    display: flex;
+    font-family: "Dancing Script", cursive;
+    font-size: 62px;
+}
+
+.socialMedia {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.icons {
+    font-size: 28px;
+    color: #fc5321;
+}
+
+@media screen and (max-width: 1200px) {
+    .author {
+        font-size: 52px;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .author {
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .name {
+        right: 0;
+    }
+
+    .button {
+        width: 90%;
+        margin: 5px auto;
+    }
+}
+@media screen and (max-width: 462px) {
+    .author {
+        font-size: 24px;
+    }
+}

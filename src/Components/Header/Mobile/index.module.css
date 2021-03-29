@@ -1,0 +1,62 @@
+.mobileMenu:hover {
+    cursor: pointer;
+    zoom: 1.1;
+}
+.mobile {
+    width: 100%;
+    position: fixed;
+    top: 40px;
+    z-index: 1;
+}
+.mobileUl {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.mobileLi {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 100%;
+    height: 30px;
+    vertical-align: bottom;
+    line-height: 1.5;
+}
+.mobileLi:nth-last-child(1) {
+    border-bottom: none;
+}
+.mobileLink {
+    text-decoration: none;
+    color: white;
+    vertical-align: sub;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.mobileLink:hover {
+    color: #fc5321;
+}
+
+.user {
+    font-size: 20px;
+    color: #ffff;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        height: 0px;
+        top: 0;
+        position: fixed;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    .mobileMenu {
+        display: block;
+    }
+}
+@media screen and (min-width: 600px) {
+    .mobileMenu,
+    .mobile,
+    .mobileUl {
+        display: none;
+    }
+}
