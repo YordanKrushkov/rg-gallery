@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rg-website/static/css/main.b897e207.chunk.css",
+    "main.js": "/rg-website/static/js/main.089f2c6e.chunk.js",
+    "main.js.map": "/rg-website/static/js/main.089f2c6e.chunk.js.map",
+    "runtime-main.js": "/rg-website/static/js/runtime-main.21fc701b.js",
+    "runtime-main.js.map": "/rg-website/static/js/runtime-main.21fc701b.js.map",
+    "static/js/2.19a9b4df.chunk.js": "/rg-website/static/js/2.19a9b4df.chunk.js",
+    "static/js/2.19a9b4df.chunk.js.map": "/rg-website/static/js/2.19a9b4df.chunk.js.map",
+    "static/js/3.f011b590.chunk.js": "/rg-website/static/js/3.f011b590.chunk.js",
+    "static/js/3.f011b590.chunk.js.map": "/rg-website/static/js/3.f011b590.chunk.js.map",
+    "index.html": "/rg-website/index.html",
+    "static/css/main.b897e207.chunk.css.map": "/rg-website/static/css/main.b897e207.chunk.css.map",
+    "static/js/2.19a9b4df.chunk.js.LICENSE.txt": "/rg-website/static/js/2.19a9b4df.chunk.js.LICENSE.txt",
+    "static/media/cover.e603a15e.jpg": "/rg-website/static/media/cover.e603a15e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21fc701b.js",
+    "static/js/2.19a9b4df.chunk.js",
+    "static/css/main.b897e207.chunk.css",
+    "static/js/main.089f2c6e.chunk.js"
+  ]
+}
