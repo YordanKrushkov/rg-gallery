@@ -5,14 +5,19 @@
 .mobile {
     width: 100%;
     position: fixed;
-    top: 40px;
-    z-index: 1;
+    top: 0;
+    z-index: 1;    
+    background-color: rgb(0, 0, 0, 0.4);
+
 }
 .mobileUl {
     list-style: none;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+.emptylist{
+    height: 30px;
 }
 .mobileLi {
     border-bottom: 1px solid white;

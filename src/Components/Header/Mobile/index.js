@@ -6,6 +6,7 @@ const Mobile = ({ navClick, isAuth }) => {
     return (
         <nav className={ styles.mobile } id="mobileNav" onClick={ navClick }>
             <ul className={ styles.mobileUl }>
+                <li className={styles.emptylist}></li>
                 <li className={ styles.mobileLi }>
                     <Link to="/" className={ styles.mobileLink }>
                         Home

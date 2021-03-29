@@ -5,6 +5,10 @@
 .body {
     position: absolute;
     top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
     width: 100%;
 }
 
@@ -85,7 +89,7 @@
         width: 90% !important;
     }
     .imgWrapper {
-        width: 80%;
+        height: 60%;
         margin: 0 auto;
     }
     .text {
