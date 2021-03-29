@@ -43,11 +43,11 @@ const Navigation = ({ isAuth }) => {
             </Link>
                 </li>
                     : null }
-                <li className={ `${styles.li} ${styles.border}` }>
+                {!isAuth&&<li className={ `${styles.li} ${styles.border}` }>
                     <Link to="/login" className={ styles.link }>
                         <FaUser className={ styles.user } />
                     </Link>
-                </li>
+                </li>}
             </ul>
         </nav>
     );

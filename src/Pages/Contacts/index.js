@@ -43,10 +43,6 @@ const Contact = () => {
         <div className={ styles.header } >
           { me.cover ? <img className={ styles.img } src={ me.cover } alt="header" /> :
             <Loader className={ styles.contactLoader } /> }
-          <span className={ styles.span } id="coverImg" >
-            { editIcon && isAuth && <FaEdit onClick={ () => { openImgInput("cover") } } /> }
-          </span>
-          <input className={ styles.hidden } id="cover" type="file" />
         </div>
         <div className={ styles.contactsWrapper } id="changeInfo" >
           { editIcon && isAuth &&

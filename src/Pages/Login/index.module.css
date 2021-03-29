@@ -41,7 +41,9 @@
 .button:hover{
     cursor: pointer;
 }
-
+.error{
+    color: #fc5321;
+}
 @media screen and (max-width:1155px){
     .wrapper{
         width: 50%;
