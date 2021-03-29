@@ -43,7 +43,7 @@ const Add = () => {
 
   return (
     <div className={ styles.wrapper }>
-      {loading && <Loader className={ styles.addLoader } /> }
+      {!loading && <Loader className={ styles.addLoader } /> }
       <h1 className={ styles.title }>Add Painting</h1>
 
       <form className={ `${styles.form} ${loading && styles.loading}` } onSubmit={ submitHandler }>
