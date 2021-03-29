@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/rg-website/static/css/main.b897e207.chunk.css",
-    "main.js": "/rg-website/static/js/main.089f2c6e.chunk.js",
-    "main.js.map": "/rg-website/static/js/main.089f2c6e.chunk.js.map",
-    "runtime-main.js": "/rg-website/static/js/runtime-main.21fc701b.js",
-    "runtime-main.js.map": "/rg-website/static/js/runtime-main.21fc701b.js.map",
-    "static/js/2.19a9b4df.chunk.js": "/rg-website/static/js/2.19a9b4df.chunk.js",
-    "static/js/2.19a9b4df.chunk.js.map": "/rg-website/static/js/2.19a9b4df.chunk.js.map",
-    "static/js/3.f011b590.chunk.js": "/rg-website/static/js/3.f011b590.chunk.js",
-    "static/js/3.f011b590.chunk.js.map": "/rg-website/static/js/3.f011b590.chunk.js.map",
-    "index.html": "/rg-website/index.html",
-    "static/css/main.b897e207.chunk.css.map": "/rg-website/static/css/main.b897e207.chunk.css.map",
-    "static/js/2.19a9b4df.chunk.js.LICENSE.txt": "/rg-website/static/js/2.19a9b4df.chunk.js.LICENSE.txt",
-    "static/media/cover.e603a15e.jpg": "/rg-website/static/media/cover.e603a15e.jpg"
+    "main.css": "/rg-gallery/static/css/main.b897e207.chunk.css",
+    "main.js": "/rg-gallery/static/js/main.089f2c6e.chunk.js",
+    "main.js.map": "/rg-gallery/static/js/main.089f2c6e.chunk.js.map",
+    "runtime-main.js": "/rg-gallery/static/js/runtime-main.2d2c24cb.js",
+    "runtime-main.js.map": "/rg-gallery/static/js/runtime-main.2d2c24cb.js.map",
+    "static/js/2.f5b950ce.chunk.js": "/rg-gallery/static/js/2.f5b950ce.chunk.js",
+    "static/js/2.f5b950ce.chunk.js.map": "/rg-gallery/static/js/2.f5b950ce.chunk.js.map",
+    "static/js/3.f011b590.chunk.js": "/rg-gallery/static/js/3.f011b590.chunk.js",
+    "static/js/3.f011b590.chunk.js.map": "/rg-gallery/static/js/3.f011b590.chunk.js.map",
+    "index.html": "/rg-gallery/index.html",
+    "static/css/main.b897e207.chunk.css.map": "/rg-gallery/static/css/main.b897e207.chunk.css.map",
+    "static/js/2.f5b950ce.chunk.js.LICENSE.txt": "/rg-gallery/static/js/2.f5b950ce.chunk.js.LICENSE.txt",
+    "static/media/cover.e603a15e.jpg": "/rg-gallery/static/media/cover.e603a15e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.21fc701b.js",
-    "static/js/2.19a9b4df.chunk.js",
+    "static/js/runtime-main.2d2c24cb.js",
+    "static/js/2.f5b950ce.chunk.js",
     "static/css/main.b897e207.chunk.css",
     "static/js/main.089f2c6e.chunk.js"
   ]
