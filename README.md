@@ -2,16 +2,15 @@
 
 <h2>View project</h2>
 
-https://yordankrushkov.github.io/rg-website
+https://yordankrushkov.github.io/rg-gallery
 
 <h4>Screenshot</h4>
 <img src="https://res.cloudinary.com/rggallery/image/upload/v1617049987/art/ArtGallery_eg9ea8.png"/>
 
 
 <h4>Description</h4>
-A personal web-app for an artist. 
-The artist can upload and change the content when is she logged in. <br/>
-For desktop users, there is a virtual gallery build with Unity.
+Personal web-app created to be used as an artist’s online exhibition. 
+Once the user (artist) is logged in he will be able to edit the content. There is a virtual gallery built with Unity that is available for desktop users (visitors).
 
 <h4>Technologies</h4>
 HTML5, CSS3, Sass/SCSS, ReactJS, Unity
