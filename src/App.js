@@ -17,7 +17,7 @@ function App() {
   const { isAuthenticated } = context
   const isAuth = isAuthenticated;
   return (
-    <Router basename="/">
+    <Router>
       <div className="App">
         <Header />
         <Background />
