@@ -2,7 +2,7 @@
 
 <h2>View project</h2>
 
-https://yordankrushkov.github.io/rg-gallery
+https://rg-gallery.com
 
 <h4>Screenshot</h4>
 <img src="https://res.cloudinary.com/rggallery/image/upload/v1617049987/art/ArtGallery_eg9ea8.png"/>
